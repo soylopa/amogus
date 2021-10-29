@@ -9,6 +9,9 @@ html {
     font-size: 62.5%;
     font-family: 'Roboto', sans-serif;
 }
+button{
+    cursor: pointer;
+}
 .main-body{
     background-attachment: fixed;
     display: flex;
@@ -102,6 +105,19 @@ a {
     color: white;
     border-radius: 2em;
 }
-.last-part{
+.last-part {
     text-align: center;
+    padding: 3em;
+}
+.last-btn{
+    padding: 1.2em 3em;
+    font-weight: bold;
+    border-radius: 2em;
+    border: none;
+}
+.last-part h1{
+    font-size: 3em;
+}
+.last-part p{
+    font-size: 15px;
 }
