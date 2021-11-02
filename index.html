@@ -53,8 +53,63 @@
                 <button class="btn">Hit the</button>
             </div>
             <div class="right-part">
-                <img src="images/drumkit.png" alt="drum">
+                <button  class="button1" id="btn1" style="position: absolute">button1</button>
+                <button  class="button2" id="btn2" style="position: absolute"></button>
+                <button class="button2"  id="btn3"style="position: absolute"></button>
+                <button class="button3"  id="btn4"style="position: absolute"></button>
+                <button class="button4" id="btn5" style="position: absolute"></button>
+                <button class="button4" id="btn6" style="position: absolute"></button>
+                <button class="button4" id="btn7" style="position: absolute"></button>
+                <button class="button4" id="btn8" style="position: absolute"></button>
+
+
+                <img src="images/drumkit.png" alt="drum" id="theImage">
+                <audio id="audio" src="audio/crash.wav" ></audio>
             </div>
+            <script>
+                var audio = document.getElementById("audio");
+                var btn1 = document.getElementById("btn1");
+                var btn2 = document.getElementById("btn2");
+                var btn3 = document.getElementById("btn3");
+                var btn4 = document.getElementById("btn4");
+                var btn5 = document.getElementById("btn5");
+                var btn6 = document.getElementById("btn6");
+                var btn7 = document.getElementById("btn7");
+                var btn8 = document.getElementById("btn8");
+
+
+                document.addEventListener("click", function(e){
+                    if( e.target === btn1 ){
+                        audio.src = "audio/crash.wav";
+                        audio.play();
+                    }else if (e.target === btn2){
+                        audio.src = "audio/bombo(1).wav";
+                        audio.play();
+                    }else if (e.target === btn3){
+                        audio.src = "audio/hit-hat.wav";
+                        audio.play();
+                    }else if (e.target === btn4){
+                        audio.src = "audio/redoblante.wav";
+                        audio.play();
+                    }else if (e.target === btn5){
+                        audio.src = "audio/tom1.wav";
+                        audio.play();
+                    }
+                    else if (e.target === btn6){
+                        audio.src = "audio/tom2.wav";
+                        audio.play();
+                    }
+                    else if (e.target === btn7){
+                        audio.src = "audio/tom3.wav";
+                        audio.play();
+                    }
+                    else if (e.target === btn8){
+                        audio.src = "audio/tom4.wav";
+                        audio.play();
+                    }
+
+                },false);
+            </script>
         </div>
         <!-- ------------------------------------------------------------------------------------------------------------------------------------------- -->
         <div class="last-part">
