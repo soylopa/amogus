@@ -96,6 +96,9 @@ a {
     text-align: center;
 
 }
+.right-part{
+
+}
 .right-part img{
     width: 100%;
     max-width: 600px;
@@ -196,5 +199,63 @@ a {
     display: none;
 }
 #btn1{
-    margin: 4.5% 3%;
+
+    top: 12%;
+    left: 3%;
+    color: black;
+    border-radius: 50%;
+    background: black;
+    border: none;
+}
+#btn2{
+    top: 14%;
+    right: 3%;
+    border: none;
+    background: black;
+    border-radius: 50%;
+    color: black;
+}
+#btn3{
+    top: 37%;
+    left: 11%;
+    border: none;
+    border-radius: 50%;
+    color: black;
+    background: black;
+}
+
+#btn4{
+    top: 22%;
+    left: 28%;
+    border: none;
+    border-radius: 50%;
+    background: black;
+    color: black;
+    padding: 7px;
+}
+#btn5{
+    top: 27%;
+    left: 56%;
+    background: black;
+    color: black;
+    border: none;
+}
+#btn6{
+    position: absolute;
+    top: 36%;
+    right: 11%;
+    border: none;
+    background: black;
+}
+#btn7{
+    top: 64%;
+    left: 20%;
+    border: none;
+    background: black;
+}
+#btn8{
+    top: 65%;
+    right: 19%;
+    background: black;
+    border: none;
 }
